@@ -20,13 +20,13 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class='container'>
+    <div id="main-body" class='container'>
     <p class="discount-bar">
         SALES: <strong> Up to 50% OFF</strong> on selected items
     </p>
     <header class="main-img"></header>
     <div class="container">
-        <div class="coral">
+        <div class="mid">
            <p id="left-collections"><span id="collections">COL</span>LECTIONS</p> 
 
             <!-- Set up your HTML -->

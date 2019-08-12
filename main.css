@@ -18,7 +18,7 @@
     background-image: url('./images/mainImg.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 27vh;
+    height: 30vh;
 }
 
 .right-side {
@@ -83,7 +83,7 @@ section {
 .item {
   padding: 5px;
   color: rgb(84, 83, 106);
-  margin-top: -40px;
+  margin-top: 0px;
 }
 
 .item-name {
@@ -163,4 +163,70 @@ sup {
   footer h3 {
     text-align: center;
   }
-/* Carousel Slider */
+
+
+/*Responsive section*/
+
+@media(max-width: 1024px){
+    footer {
+        width: 65%;
+    }
+}
+
+@media(max-width: 768px){
+    #main-body {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .main-img {
+        height: 20vh;
+    }
+    
+    .mid {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .main {
+        padding: 0;
+    }
+    
+    .customNextBtn {
+        height: 33.5vh
+    }
+    
+    footer {
+        width: 80%;
+    }
+    
+    #parallelogram {
+        width: 100%;
+    }
+}
+
+@media(max-width: 425px){
+        #main-body {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    
+    .main-img {
+        width: 100%;
+    }
+    
+      .customNextBtn {
+        height: 26.5vh;
+    }
+   
+}
+
+
+
+
+
+
+
