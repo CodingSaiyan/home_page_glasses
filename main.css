@@ -1,0 +1,166 @@
+
+.discount-bar {
+    height: 5vh;
+    background: rgb(10, 88, 162);
+    color: white;
+    border-top: 15px solid black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-img {
+    background-image: url('./images/mainImg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 27vh;
+}
+
+.right-side {
+    text-align: right;
+    padding-top: 10px;
+   
+
+}
+
+
+#collections {
+  border-bottom: 7px solid lightgrey;
+  padding-bottom: 8px;
+}
+
+.collections-link {
+     border-bottom: 2px solid lightgrey;
+     padding-bottom: 5px;
+}
+
+.main {
+  padding-top: 20px;
+}
+
+section {
+  display: flex;
+
+}
+
+.customPrevBtn {
+  background: rgb(240, 240, 240);
+  font-size: 40px;
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26.5vh;
+  margin-top: 20px;
+
+}
+
+.slider {
+  width: 94%;
+  margin: 0 auto;
+
+}
+
+
+
+.customNextBtn {
+  background: rgb(240, 240, 240);
+  font-size: 40px;
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26.5vh;
+  margin-top: 20px;
+}
+
+
+.item {
+  padding: 5px;
+  color: rgb(84, 83, 106);
+  margin-top: -40px;
+}
+
+.item-name {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  z-index: 9999999;
+  background: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.price {
+  text-align: center;
+  word-spacing: 10px;
+}
+
+.price-cut {
+  text-decoration: line-through;
+  color: rgb(186, 10, 8);
+}
+
+sup {
+ font-size: 9px;
+}
+
+#parallelogram {
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    width: 100%;
+    height: 450px;
+    transform: skew(173deg);
+    padding: 30px;
+  }
+
+
+  footer {
+    width: 45%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    
+  }
+
+
+  input, textarea, label {
+    width: 100%;
+  }
+
+  .formStuff {
+    width: 98%;
+    transform: skew(-173deg);
+  }
+
+  button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 100%;
+    padding: 10px;
+  }
+
+  footer h3 {
+    text-align: center;
+  }
+/* Carousel Slider */
