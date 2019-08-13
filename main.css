@@ -1,4 +1,24 @@
 
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+div#main-body {
+  
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  /* height: 40vh; */
+ 
+  
+}
+
 .discount-bar {
     height: 5vh;
     background: rgb(10, 88, 162);
@@ -7,6 +27,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    width: 100%;
     font-size: 10px;
     display: flex;
     align-items: center;
@@ -18,16 +39,33 @@
     background-image: url('./images/mainImg.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 30vh;
-}
-
-.right-side {
-    text-align: right;
-    padding-top: 10px;
+    /* height: 31.5vh; */
+    height: 240px;
+    width: 100%;
    
-
+    
 }
 
+
+.main-container {
+  width: 93%;
+ 
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+
+p#left-collections {
+  font-size: .7em;
+}
+
+#right-collections {
+  float: right;
+  font-size: .6em;
+  color: blue;
+  padding: 3px;
+  border-bottom: 3px solid lightgrey;
+}
 
 #collections {
   border-bottom: 7px solid lightgrey;
@@ -45,18 +83,32 @@
 
 section {
   display: flex;
+  align-items: center;
+  width: 100%;
 
+}
+
+.owl-carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.glasses {
+  height: 270px;
 }
 
 .customPrevBtn {
   background: rgb(240, 240, 240);
   font-size: 40px;
-  padding: 0 5px;
+  padding: 0 3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 26.5vh;
-  margin-top: 20px;
+  height: 270px;
+  position: relative;
+  top: -30px;
+  left: 0;
+
 
 }
 
@@ -71,12 +123,14 @@ section {
 .customNextBtn {
   background: rgb(240, 240, 240);
   font-size: 40px;
-  padding: 0 5px;
+  padding: 0 3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 26.5vh;
-  margin-top: 20px;
+  height: 270px;
+  position: relative;
+  top: -30px;
+  right: 0;
 }
 
 
@@ -128,14 +182,18 @@ sup {
   background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
     width: 100%;
-    height: 450px;
+    height: 350px;
     transform: skew(173deg);
     padding: 30px;
   }
 
 
+  label {
+    font-size: 10px;
+  }
+
   footer {
-    width: 45%;
+    width: 67%;
     padding-top: 50px;
     padding-bottom: 30px;
     margin: 0 auto;
@@ -164,37 +222,17 @@ sup {
     text-align: center;
   }
 
+  p.description {
+    font-size: 9px;
+  }
 
 /*Responsive section*/
 
-@media(max-width: 1024px){
-    footer {
-        width: 65%;
-    }
-}
 
 @media(max-width: 768px){
-    #main-body {
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-    }
-    
+
     .main-img {
-        height: 20vh;
-    }
-    
-    .mid {
-        margin: 0 auto;
-        padding: 0;
-    }
-    
-    .main {
-        padding: 0;
-    }
-    
-    .customNextBtn {
-        height: 33.5vh
+        height: 24vh;
     }
     
     footer {
@@ -207,22 +245,23 @@ sup {
 }
 
 @media(max-width: 425px){
-        #main-body {
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-    }
+
+  .main-img {
+    height: 14vh;
+}
     
-    
-    .main-img {
-        width: 100%;
-    }
-    
-      .customNextBtn {
-        height: 26.5vh;
-    }
+.main-container {
+  width: 80%;
+}
+  
+
+  
+
+  
+  
    
 }
+
 
 
 
